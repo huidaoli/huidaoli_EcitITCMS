@@ -1,0 +1,1 @@
+BDBridge.handleEnter({"bid":"261592a57a042b05ef516c64", "wordid":0, "word":"", "from":"上海", "wordtype":0, "saved":1, "group":[{"groupid":0, "groupname":"默认分组", "user":[{"subid":0, "islogin":1, "groupid":0}, {"subid":166751, "islogin":0, "groupid":0}, {"subid":129705, "islogin":0, "groupid":0}]}]});

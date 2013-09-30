@@ -1,0 +1,124 @@
+/* 
+本站由
+信工IT网 SEO-http://www.ec-it.com
+网站站长设计制作
+业务联系qq：1069945237
+*/
+body, ul, li, h1, h2, p { margin: 0pt; padding: 0pt; font-size: 12px; }
+a { list-style-type: none; }
+a:link { color: rgb(0, 0, 0); text-decoration: none; }
+a:visited { color: rgb(0, 0, 0); text-decoration: none; }
+a:hover { color: rgb(153, 153, 153); }
+.clear { clear: both; }
+.top1 { height: 147px; background:url('../images/top1.gif') repeat scroll 0% 0% transparent; }
+.main { width: 906px; margin: auto; }
+.logobox { width: 227px; height: 60px; float: left; }
+.logobox p { margin: 0px; padding: 0px; background: none repeat scroll 0% 0% rgb(0, 204, 204); }
+.logobox h1 { font-size: 12px; color: rgb(255, 255, 255); line-height: 18px; margin: 0px; padding: 0px 0px 30px; }
+.navmenu ul { float: right; }
+.navmenu li a { color: rgb(112, 112, 112); text-decoration: none; }
+.navmenu li a:hover { color: rgb(102, 102, 102); }
+.telbox { width: 277px; height: 34px; line-height: 34px; float: right; padding-left: 30px; background-image:url('../images/tel.gif'); }
+.telbox span { font-size: 16px; color: rgb(229, 100, 6); font-weight: bold; font-family: Arial,Helvetica,sans-serif; }
+ul#nav { text-align: center; float: right; overflow: hidden; }
+ul#nav li { float: left; list-style: none outside none; }
+ul#nav li a { display: block; width: 90px; height: 45px; padding: 67px 0pt 0pt; font-family: "微软雅黑"; font-size: 14px; color: rgb(112, 112, 112); text-decoration: none; background:url('../images/menubg.png') no-repeat scroll 0pt -112px transparent; }
+ul#nav li a:hover { background:url('../images/menubg.png') no-repeat scroll 0pt 0pt transparent; color: rgb(255, 255, 255); text-shadow: 0pt 2px 3px rgb(76, 34, 34); }
+ul#nav li a.js:hover { background:url('../images/menubg.png') no-repeat scroll 0pt -112px transparent; }
+#bannerbg { height: 348px; text-align: center; background-color: rgb(13, 52, 91); clear: both; overflow: hidden; }
+#bannerline { background:url('../images/touming.png') repeat-x scroll center bottom transparent; height: 348px; clear: both; }
+#bannerbg a { display: none; }
+#bannerbg img { border: medium none; }
+#flash { position: relative; width: 906px; clear: both; overflow: hidden; margin: auto; }
+.flash_bar { z-index: 69; position: absolute; text-align: center; padding-left: 470px; width: 520px; bottom: 0px; background:url('../images/tg_flashbar.png') no-repeat scroll 0% 0% transparent; height: 30px; overflow: hidden; padding-top: 13px ! important; left: 0px; }
+.flash_bar .dq { margin: 5px; width: 8px; display: block; background:url('../images/tg_flash_p.png') no-repeat scroll 0px 0px transparent; float: left; height: 8px; cursor: pointer; }
+.flash_bar .no { margin: 5px; width: 8px; display: block; background:url('../images/tg_flash_p2.png') no-repeat scroll 0px 0px transparent; float: left; height: 8px; cursor: pointer; }
+.content { background:url('../images/contentbg.png') repeat-x scroll 0% 0% transparent; }
+.content01 { overflow: hidden; }
+.content02 { overflow: hidden; }
+.hotnews { height: 45px; line-height: 35px; background:url('../images/hotnews.gif') no-repeat scroll 0% 0% transparent; padding-left: 115px; }
+.c01 { width: 297px; height: 291px; float: left; overflow: hidden; }
+.c01img { width: 157px; height: 46px; padding: 90px 0px 0px 140px; background-image:url('../images/c01.png'); }
+.c02 { width: 314px; height: 291px; float: left; overflow: hidden; }
+.c02img { width: 194px; height: 46px; padding: 90px 0px 0px 160px; background-image:url('../images/c02.png'); }
+.c03 { width: 295px; height: 291px; float: left; overflow: hidden; }
+.c03img { width: 130px; height: 46px; padding: 90px 0px 0px 175px; background-image:url('../images/c03.png'); }
+.c04 { width: 297px; height: 291px; float: left; overflow: hidden; }
+.c04img { width: 157px; height: 46px; padding: 90px 0px 0px 140px; background-image:url('../images/c04.png'); }
+.c05 { width: 314px; height: 291px; float: left; overflow: hidden; }
+.c05img { width: 194px; height: 46px; padding: 90px 0px 0px 160px; background-image:url('../images/c05.png'); }
+.c06 { width: 295px; height: 291px; float: left; overflow: hidden; }
+.c06img { width: 130px; height: 46px; padding: 90px 0px 0px 175px; background-image:url('../images/c06.png'); }
+.c07 { width: 297px; height: 291px; float: left; overflow: hidden; }
+.c07img { width: 157px; height: 46px; padding: 90px 0px 0px 140px; background-image:url('../images/c07.png'); }
+.c08 { width: 314px; height: 291px; float: left; overflow: hidden; }
+.c08img { width: 194px; height: 46px; padding: 90px 0px 0px 160px; background-image:url('../images/c08.png'); }
+.c09 { width: 295px; height: 291px; float: left; overflow: hidden; }
+.c09img { width: 130px; height: 46px; padding: 90px 0px 0px 175px; background-image:url('../images/c09.png'); }
+.more { width: 82px; padding-left: 20px; height: 22px; background:url('../images/more.gif') repeat scroll 0% 0% transparent; line-height: 22px; }
+.newslist { padding-left: 20px; width: 260px; list-style-type: none; float: left; }
+.mar20 { margin-right: 20px; }
+.newslist ol { font-size: 14px; line-height: 40px; font-weight: bold; text-align: left; margin: 0px; padding: 0px; color: rgb(38, 97, 116); }
+.newslist li { height: 15px; }
+.newslist li img { float: left; }
+.newslist li a { float: left; }
+.newslist li span { float: right; }
+.newslist p { line-height: 22px; padding: 0px; margin: 0px; }
+.workstitle { height: 48px; width: 906px; }
+.workstitle span { float: left; font-size: 18px; line-height: 48px; font-family: Arial; font-weight: bold; color: rgb(124, 124, 124); }
+.workstitle h2 { font-family: 微软雅黑; font-size: 18px; line-height: 48px; padding-left: 15px; float: left; font-weight: normal; }
+.wkbox { width: 274px; height: 259px; padding-top: 15px; margin: 0px 25px 30px 0px; display: inline; float: left; border: 1px dashed rgb(152, 152, 152); text-align: center; }
+.wkbox img { border: 1px solid rgb(102, 102, 102); }
+.wkbox img:hover { border: 1px solid rgb(255, 0, 0); }
+.link { width: 906px; margin: auto; border-top: 1px dashed rgb(102, 102, 102); }
+.link li { float: left; list-style-type: none; padding: 8px; }
+.foot { height: 99px; background-image:url('../images/foot.gif'); }
+.flogo { width: 209px; height: 55px; padding-top: 25px; float: left; }
+.fmenu { width: 680px; float: right; color: rgb(255, 255, 255); padding-top: 25px; }
+.fmenu li { float: right; list-style-type: none; padding: 8px; }
+.fmenu li a { color: rgb(255, 255, 255); }
+.fmenu li a:hover { color: rgb(168, 183, 54); }
+.copyright { width: 680px; float: right; text-align: right; line-height: 35px; }
+#google1 { height: 33px; line-height: 33px; overflow: hidden; }
+/* 
+本站由
+信工IT网 SEO-http://www.ec-it.com
+网站站长设计制作
+业务联系qq：1069945237
+*/
+
+#BDBridgeWrap, #BDBridgeNewWrap, #BDBridgeMess { overflow: visible; }
+#BDBridgeIconWrap { width: 2px; height: 2px; position: fixed; top: 50%; left: 10px; z-index: 2147483647; margin: 0pt; padding: 0pt; }
+#BDBridgeInviteWrap { width: 2px; height: 2px; position: fixed; top: 50%; left: 50%; z-index: 2147483647; margin: -77px 0pt 0pt -160px; padding: 0pt; }
+#BDBridgeLS { width: 2px; height: 2px; position: fixed; top: 50%; right: 10px; z-index: 2147483647; }
+#BDBridgeMess { height: 0pt; font-size: 0pt; margin: 0pt; padding: 0pt; line-height: 0; }
+#BaiduBridgePigeon div, #BaiduBridgePigeon span, #BaiduBridgePigeon a, #BaiduBridgePigeon form, #BaiduBridgePigeon input, #BaiduBridgePigeon textarea { line-height: normal; font-size: 12px; font-weight: normal; margin: 0pt; padding: 0pt; text-decoration: none; outline: medium none; font-family: Arial; text-align: left; overflow: visible; border: 0pt none; position: static; width: auto; height: auto; }
+#BaiduBridgePigeon textarea { overflow-y: auto; overflow-x: hidden; resize: none; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); }
+#BaiduBridgePigeon input { overflow: hidden; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); }
+#BaiduBridgePigeon .bd_bp_pigeon { padding: 3px; }
+#BaiduBridgePigeon .bd_bp_clear_all { clear: both; line-height: 0px; font-size: 0px; height: 0pt; overflow: hidden; }
+#BaiduBridgePigeon .bd_bp_0_head { color: rgb(102, 102, 102); float: left; width: 60px; line-height: 20px; overflow: hidden; margin-right: 6px; }
+#BaiduBridgePigeon .bd_bp_1_input { margin-top: -1px; line-height: 20px; float: left; color: rgb(204, 204, 204); border: 1px solid rgb(204, 204, 204); height: 20px; }
+#BaiduBridgePigeon .bd_bp_mess { height: 92px; border: 1px solid rgb(204, 204, 204); color: rgb(204, 204, 204); font-size: 12px; padding-top: 2px; float: left; }
+#BaiduBridgePigeon .bd_bp_alert { color: rgb(204, 51, 51); padding-left: 1px; float: left; }
+#BaiduBridgePigeon { position: absolute; }
+#BaiduBridgePigeon #BdBPTwoPx { height: 1px; font-size: 0px; line-height: 1px; margin: 0pt 2px; }
+#BaiduBridgePigeon #BdBPOnePx { height: 1px; font-size: 0px; line-height: 1px; margin: 0pt 1px; }
+#BaiduBridgePigeon #BdBPBody { background-color: rgb(255, 255, 255); overflow-y: scroll; overflow-x: hidden; }
+#BaiduBridgePigeon #BdBPTitle { padding: 3px 9px 5px; }
+#BaiduBridgePigeon #BdBPTitleText { float: left; font-weight: bold; }
+#BaiduBridgePigeon #BdBPForm { padding: 8px 0px 8px 8px; }
+#BaiduBridgePigeon #BdBPCopyRight { height: 16px; line-height: 16px; margin-top: 7px; }
+#BaiduBridgePigeon #BdBPCrIcon { margin: 4px 6px 0pt 0pt; float: left; }
+#BaiduBridgePigeon #BdBPCrIconRed { background-color: rgb(187, 42, 31); width: 18px; height: 5px; line-height: 0; font-size: 0pt; float: left; cursor: pointer; }
+#BaiduBridgePigeon #BdBPCrIconBlue { background-color: rgb(52, 42, 255); width: 18px; height: 5px; line-height: 0; font-size: 0pt; float: left; cursor: pointer; }
+#BaiduBridgePigeon #BdBPClose { float: right; background:url('../images/mess.gif') repeat scroll 1px 12px transparent; width: 12px; height: 11px; font-size: 0pt; line-height: 0; }
+#BaiduBridgePigeon #BdBPSend { width: 59px; height: 22px; line-height: 22px; text-align: center; color: rgb(0, 0, 0); background-position: 0pt -40px; background-image:url('../images/mess.gif'); margin: 4px 0pt; }
+#BaiduBridgePigeon #BdBPSend:hover { background-position: 0pt -62px; }
+#BaiduBridgePigeon #BdBPSend:active { background-position: 0pt -84px; }
+/* 
+本站由
+信工IT网 SEO-http://www.ec-it.com
+网站站长设计制作
+业务联系qq：1069945237
+*/

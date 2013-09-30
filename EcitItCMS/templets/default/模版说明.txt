@@ -1,0 +1,15 @@
+/css   css文件目录
+/images   图片目录
+/js        js目录
+
+article_anli.htm         精彩案例详细页面
+list_anli.htm            精彩案例列表页
+
+article_article.htm      文中详细页面
+list_article.htm         文章列表页模版
+
+footer.htm               底部模版
+head.htm                 头部模版
+index.htm                主页模版
+
+single.htm               单页面（关于我们，联系我们这样的单页面）

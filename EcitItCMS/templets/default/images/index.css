@@ -1,0 +1,55 @@
+/* ::::: http://www.senzw.com/css/main.css ::::: */
+
+body, ul, li, h1, h2, p { margin: 0pt; padding: 0pt; font-size: 12px; }
+a { list-style-type: none; }
+a:link { color: rgb(0, 0, 0); text-decoration: none; }
+a:visited { color: rgb(0, 0, 0); text-decoration: none; }
+a:hover { color: rgb(153, 153, 153); }
+.clear { clear: both; }
+.top1 { height: 147px; background: url('top1.gif') repeat scroll 0% 0% transparent; }
+.main { width: 906px; margin: auto; }
+.logobox { width: 227px; height: 60px; float: left; }
+.logobox p { margin: 0px; padding: 0px; background: none repeat scroll 0% 0% rgb(0, 204, 204); }
+.logobox h1 { font-size: 12px; color: rgb(255, 255, 255); line-height: 18px; margin: 0px; padding: 0px 0px 30px; }
+.navmenu ul { float: right; }
+.navmenu li a { color: rgb(112, 112, 112); text-decoration: none; }
+.navmenu li a:hover { color: rgb(102, 102, 102); }
+.telbox { width: 277px; height: 34px; line-height: 34px; float: right; padding-left: 30px; background-image: url('tel.gif'); }
+.telbox span { font-size: 16px; color: rgb(229, 100, 6); font-weight: bold; font-family: Arial,Helvetica,sans-serif; }
+ul#nav { text-align: center; float: right; overflow: hidden; }
+ul#nav li { float: left; list-style: none outside none; }
+ul#nav li a { display: block; width: 90px; height: 45px; padding: 67px 0pt 0pt; font-family: "微软雅黑"; font-size: 14px; color: rgb(112, 112, 112); text-decoration: none; background: url('menubg.png') no-repeat scroll 0pt -112px transparent; }
+ul#nav li a:hover { background: url('menubg.png') no-repeat scroll 0pt 0pt transparent; color: rgb(255, 255, 255); text-shadow: 0pt 2px 3px rgb(76, 34, 34); }
+ul#nav li a.js:hover { background: url('menubg.png') no-repeat scroll 0pt -112px transparent; }
+.content { background: url('contentbg.png') repeat-x scroll 0% 0% transparent; }
+.hotnews { height: 45px; line-height: 35px; background: url('hotnews.gif') no-repeat scroll 0% 0% transparent; padding-left: 115px; }
+.foot { height: 99px; background-image: url('foot.gif'); }
+.flogo { width: 209px; height: 55px; padding-top: 25px; float: left; }
+.fmenu { width: 680px; float: right; color: rgb(255, 255, 255); padding-top: 25px; }
+.fmenu li { float: right; list-style-type: none; padding: 8px; }
+.fmenu li a { color: rgb(255, 255, 255); }
+.fmenu li a:hover { color: rgb(168, 183, 54); }
+.copyright { width: 680px; float: right; text-align: right; line-height: 35px; }
+.comtitle { border-bottom: 1px solid rgb(165, 165, 163); height: 44px; line-height: 44px; font-family: 微软雅黑; }
+.comtitle h2, .hzlc h2 { float: left; padding: 0px 15px 0px 5px; font-size: 16px; color: rgb(15, 50, 90); }
+.comtitle span, .hzlc span { float: left; font-size: 16px; font-family: Arial; font-weight: bold; color: rgb(80, 81, 76); }
+.liover { background: url('liover.gif') repeat scroll 0% 0% transparent; color: rgb(12, 170, 0); }
+.liover a { color: rgb(12, 170, 0); }
+.combox { width: 917px; line-height: 34px; font-size: 14px; background-image: url('combox.png'); margin: auto; }
+.fuwutop { width: 917px; margin: auto; background-image: url('fuwutop.png'); }
+#worktt { padding: 35px 30px; margin: 0pt; }
+#worktt li { float: left; border: medium none; list-style: none outside none; font-family: 微软雅黑; width: 81px; height: 39px; line-height: 30px; text-align: center; font-size: 14px; margin-right: 20px; }
+.fuwufoot { width: 917px; height: 8px; background-image: url('fuwufoot.png'); margin: auto auto 20px; overflow: hidden; }
+.combox ul { padding: 10px 0px 0px 40px; }
+.combox li { list-style: none outside none; height: 32px; width: 830px; border-bottom: 1px solid rgb(243, 243, 243); border-top: 1px solid rgb(243, 243, 243); }
+.workbanner { height: 114px; text-align: center; background-color: rgb(13, 52, 91); }
+.boximg { width: 856px; margin: auto; padding-top: 20px; clear: both; padding-left: 50px; position: relative; }
+.zp_box { width: 204px; height: 180px; overflow: hidden; float: left; position: relative; }
+.zp_box .picbox { width: 189px; height: 140px; margin: 0px auto; overflow: hidden; border: 1px solid rgb(153, 153, 153); padding: 3px; }
+.zp_box .picbox img { width: 189px; height: 140px; }
+a.zp_boxfc { display: block; width: 189px; height: 200px; position: absolute; left: 3px; top: 0px; z-index: 39; background: url('portfolio_bc.gif') no-repeat scroll 0px 0px transparent; }
+.pop_tit { width: 169px; height: 39px; padding: 10px 10px 5px; background-color: rgb(0, 0, 0); display: none; border-bottom: 1px solid rgb(56, 56, 56); }
+.p_tit1 { line-height: 18px; font-family: Arial; color: rgb(255, 255, 255); font-size: 18px; padding-right: 18px; background: url('zp_poptit.gif') no-repeat scroll right center transparent; }
+.p_tit2 { line-height: 15px; font-family: Arial; color: rgb(64, 81, 85); font-size: 12px; }
+.pages { width: 856px; padding-right: 50px; text-align: right; height: 35px; line-height: 35px; }
+#google1 { height: 33px; line-height: 33px; overflow: hidden; }

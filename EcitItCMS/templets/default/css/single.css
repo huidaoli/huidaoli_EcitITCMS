@@ -1,0 +1,89 @@
+/* 
+本站由
+信工IT网 SEO-http://www.ec-it.com
+网站站长设计制作
+业务联系qq：1069945237
+*/
+
+body, ul, li, h1, h2, p { margin: 0pt; padding: 0pt; font-size: 12px; }
+a { list-style-type: none; }
+a:link { color: rgb(0, 0, 0); text-decoration: none; }
+a:visited { color: rgb(0, 0, 0); text-decoration: none; }
+a:hover { color: rgb(153, 153, 153); }
+.clear { clear: both; }
+.top1 { height: 147px; background:url('../images/top1.gif') repeat scroll 0% 0% transparent; }
+.main { width: 906px; margin: auto; }
+.logobox { width: 227px; height: 60px; float: left; }
+.logobox p { margin: 0px; padding: 0px; background: none repeat scroll 0% 0% rgb(0, 204, 204); }
+.logobox h1 { font-size: 12px; color: rgb(255, 255, 255); line-height: 18px; margin: 0px; padding: 0px 0px 30px; }
+.navmenu ul { float: right; }
+.navmenu li a { color: rgb(112, 112, 112); text-decoration: none; }
+.navmenu li a:hover { color: rgb(102, 102, 102); }
+.telbox { width: 277px; height: 34px; line-height: 34px; float: right; padding-left: 30px; background-image:url('../images/tel.gif'); }
+.telbox span { font-size: 16px; color: rgb(229, 100, 6); font-weight: bold; font-family: Arial,Helvetica,sans-serif; }
+ul#nav { text-align: center; float: right; overflow: hidden; }
+ul#nav li { float: left; list-style: none outside none; }
+ul#nav li a { display: block; width: 90px; height: 45px; padding: 67px 0pt 0pt; font-family: "微软雅黑"; font-size: 14px; color: rgb(112, 112, 112); text-decoration: none; background:url('../images/menubg.png') no-repeat scroll 0pt -112px transparent; }
+ul#nav li a:hover { background:url('../images/menubg.png') no-repeat scroll 0pt 0pt transparent; color: rgb(255, 255, 255); text-shadow: 0pt 2px 3px rgb(76, 34, 34); }
+ul#nav li a.js:hover { background:url('../images/menubg.png') no-repeat scroll 0pt -112px transparent; }
+.content { background:url('../images/contentbg.png') repeat-x scroll 0% 0% transparent; }
+.hotnews { height: 45px; line-height: 35px; background:url('../images/hotnews.gif') no-repeat scroll 0% 0% transparent; padding-left: 115px; }
+.foot { height: 99px; background-image:url('../images/foot.gif'); }
+.flogo { width: 209px; height: 55px; padding-top: 25px; float: left; }
+.fmenu { width: 680px; float: right; color: rgb(255, 255, 255); padding-top: 25px; }
+.fmenu li { float: right; list-style-type: none; padding: 8px; }
+.fmenu li a { color: rgb(255, 255, 255); }
+.fmenu li a:hover { color: rgb(168, 183, 54); }
+.copyright { width: 680px; float: right; text-align: right; line-height: 35px; }
+.nbanner { height: 206px; text-align: center; background-color: rgb(13, 52, 91); }
+.comtitle { border-bottom: 1px solid rgb(165, 165, 163); height: 44px; line-height: 44px; font-family: 微软雅黑; }
+.comtitle h2, .hzlc h2 { float: left; padding: 0px 15px 0px 5px; font-size: 16px; color: rgb(15, 50, 90); }
+.comtitle span, .hzlc span { float: left; font-size: 16px; font-family: Arial; font-weight: bold; color: rgb(80, 81, 76); }
+.companytop { height: 148px; background-image:url('../images/companytop.png'); width: 917px; margin: auto; }
+.companytop ul { padding: 35px 30px; margin: 0pt; }
+.companytop ul li { float: left; list-style: none outside none; font-family: 微软雅黑; width: 81px; height: 39px; line-height: 30px; text-align: center; font-size: 14px; margin-right: 20px; }
+.liover { background:url('../images/liover.gif') repeat scroll 0% 0% transparent; color: rgb(12, 170, 0); }
+.liover a { color: rgb(12, 170, 0); }
+.combox { width: 917px; line-height: 34px; font-size: 14px; background-image:url('../images/combox.png'); margin: auto; }
+.combox p { margin: 0pt 30px; padding: 0pt; background-image:url('../images/p34.gif'); }
+.comfoot { width: 917px; height: 127px; background-image:url('../images/comfoot.png'); margin: auto; }
+#worktt { padding: 35px 30px; margin: 0pt; }
+#worktt li { float: left; border: medium none; list-style: none outside none; font-family: 微软雅黑; width: 81px; height: 39px; line-height: 30px; text-align: center; font-size: 14px; margin-right: 20px; }
+#google1 { height: 33px; line-height: 33px; overflow: hidden; }
+/* ::::: http://qiao.baidu.com/css/bw.css ::::: */
+
+#BDBridgeWrap, #BDBridgeNewWrap, #BDBridgeMess { overflow: visible; }
+#BDBridgeIconWrap { width: 2px; height: 2px; position: fixed; top: 50%; left: 10px; z-index: 2147483647; margin: 0pt; padding: 0pt; }
+#BDBridgeInviteWrap { width: 2px; height: 2px; position: fixed; top: 50%; left: 50%; z-index: 2147483647; margin: -77px 0pt 0pt -160px; padding: 0pt; }
+#BDBridgeLS { width: 2px; height: 2px; position: fixed; top: 50%; right: 10px; z-index: 2147483647; }
+#BDBridgeMess { height: 0pt; font-size: 0pt; margin: 0pt; padding: 0pt; line-height: 0; }
+#BaiduBridgePigeon div, #BaiduBridgePigeon span, #BaiduBridgePigeon a, #BaiduBridgePigeon form, #BaiduBridgePigeon input, #BaiduBridgePigeon textarea { line-height: normal; font-size: 12px; font-weight: normal; margin: 0pt; padding: 0pt; text-decoration: none; outline: medium none; font-family: Arial; text-align: left; overflow: visible; border: 0pt none; position: static; width: auto; height: auto; }
+#BaiduBridgePigeon textarea { overflow-y: auto; overflow-x: hidden; resize: none; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); }
+#BaiduBridgePigeon input { overflow: hidden; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); }
+#BaiduBridgePigeon .bd_bp_pigeon { padding: 3px; }
+#BaiduBridgePigeon .bd_bp_clear_all { clear: both; line-height: 0px; font-size: 0px; height: 0pt; overflow: hidden; }
+#BaiduBridgePigeon .bd_bp_0_head { color: rgb(102, 102, 102); float: left; width: 60px; line-height: 20px; overflow: hidden; margin-right: 6px; }
+#BaiduBridgePigeon .bd_bp_1_input { margin-top: -1px; line-height: 20px; float: left; color: rgb(204, 204, 204); border: 1px solid rgb(204, 204, 204); height: 20px; }
+#BaiduBridgePigeon .bd_bp_mess { height: 92px; border: 1px solid rgb(204, 204, 204); color: rgb(204, 204, 204); font-size: 12px; padding-top: 2px; float: left; }
+#BaiduBridgePigeon .bd_bp_alert { color: rgb(204, 51, 51); padding-left: 1px; float: left; }
+#BaiduBridgePigeon { position: absolute; }
+#BaiduBridgePigeon #BdBPTwoPx { height: 1px; font-size: 0px; line-height: 1px; margin: 0pt 2px; }
+#BaiduBridgePigeon #BdBPOnePx { height: 1px; font-size: 0px; line-height: 1px; margin: 0pt 1px; }
+#BaiduBridgePigeon #BdBPBody { background-color: rgb(255, 255, 255); overflow-y: scroll; overflow-x: hidden; }
+#BaiduBridgePigeon #BdBPTitle { padding: 3px 9px 5px; }
+#BaiduBridgePigeon #BdBPTitleText { float: left; font-weight: bold; }
+#BaiduBridgePigeon #BdBPForm { padding: 8px 0px 8px 8px; }
+#BaiduBridgePigeon #BdBPCopyRight { height: 16px; line-height: 16px; margin-top: 7px; }
+#BaiduBridgePigeon #BdBPCrIcon { margin: 4px 6px 0pt 0pt; float: left; }
+#BaiduBridgePigeon #BdBPCrIconRed { background-color: rgb(187, 42, 31); width: 18px; height: 5px; line-height: 0; font-size: 0pt; float: left; cursor: pointer; }
+#BaiduBridgePigeon #BdBPCrIconBlue { background-color: rgb(52, 42, 255); width: 18px; height: 5px; line-height: 0; font-size: 0pt; float: left; cursor: pointer; }
+#BaiduBridgePigeon #BdBPClose { float: right; background:url('../images/mess.gif') repeat scroll 1px 12px transparent; width: 12px; height: 11px; font-size: 0pt; line-height: 0; }
+#BaiduBridgePigeon #BdBPSend { width: 59px; height: 22px; line-height: 22px; text-align: center; color: rgb(0, 0, 0); background-position: 0pt -40px; background-image:url('../images/mess.gif'); margin: 4px 0pt; }
+#BaiduBridgePigeon #BdBPSend:hover { background-position: 0pt -62px; }
+#BaiduBridgePigeon #BdBPSend:active { background-position: 0pt -84px; }
+/* 
+本站由
+信工IT网 SEO-http://www.ec-it.com
+网站站长设计制作
+业务联系qq：1069945237
+*/

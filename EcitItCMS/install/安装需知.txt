@@ -1,0 +1,5 @@
+重新安装前要把install目录下的index.html删除掉，
+同时把：
+common.inc.php、
+config.cache.bak.php、
+config.cache.inc.php删除掉，
