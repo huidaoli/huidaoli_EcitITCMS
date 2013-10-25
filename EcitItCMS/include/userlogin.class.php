@@ -3,7 +3,7 @@
  * 管理员登陆类
  *
  * @version        $Id: userlogin.class.php 1 15:59 2010年7月5日Z tianya $ * @package        EcitITCMS.Libraries
-* @copyright      Copyright (c) 2007 - 2010, EcitITDev, Inc.
+* @copyright      Copyright (c) 2007 - 2010, DesDev, Inc.
  * @license        http://www.ecit-it.com
  * @link           http://www.ecit-it.com
  */
@@ -284,22 +284,22 @@ class userLogin
             global $admincachefile,$adminstyle;
             if(empty($adminstyle)) $adminstyle = 'dedecms';
 
-            @session_register($this->keepUserIDTag);
+            //@session_register($this->keepUserIDTag);
             $_SESSION[$this->keepUserIDTag] = $this->userID;
 
-            @session_register($this->keepUserTypeTag);
+            //@session_register($this->keepUserTypeTag);
             $_SESSION[$this->keepUserTypeTag] = $this->userType;
 
-            @session_register($this->keepUserChannelTag);
+            //@session_register($this->keepUserChannelTag);
             $_SESSION[$this->keepUserChannelTag] = $this->userChannel;
 
-            @session_register($this->keepUserNameTag);
+            //@session_register($this->keepUserNameTag);
             $_SESSION[$this->keepUserNameTag] = $this->userName;
 
-            @session_register($this->keepUserPurviewTag);
+            //@session_register($this->keepUserPurviewTag);
             $_SESSION[$this->keepUserPurviewTag] = $this->userPurview;
 
-            @session_register($this->keepAdminStyleTag);
+            //@session_register($this->keepAdminStyleTag);
             $_SESSION[$this->keepAdminStyleTag] = $adminstyle;
 
             PutCookie('DedeUserID', $this->userID, 3600 * 24, '/');
@@ -363,11 +363,11 @@ class userLogin
     function exitUser()
     {
         ClearMyAddon();
-        @session_unregister($this->keepUserIDTag);
-        @session_unregister($this->keepUserTypeTag);
-        @session_unregister($this->keepUserChannelTag);
-        @session_unregister($this->keepUserNameTag);
-        @session_unregister($this->keepUserPurviewTag);
+        unset ($this->keepUserIDTag);
+        unset ($this->keepUserTypeTag);
+        unset ($this->keepUserChannelTag);
+        unset ($this->keepUserNameTag);
+        unset ($this->keepUserPurviewTag);
         DropCookie('dedeAdmindir');
         DropCookie('DedeUserID');
         DropCookie('DedeLoginTime');
